@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <title>Simple Chat - Login</title>
+</head>
+<body>
+    <main>
+        <div class="headings">
+            <h2>Hey, <small class="text-muted">glad to see you!</small></h2>
+            <h3>Login to <small class="text-muted">Simple Chat</small></h3>
+        </div>
+
+        <form class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter your desired name" autocomplete="off" maxlength="16">
+
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" autocomplete="off">
+
+            <button class="btn btn-primary mt-2">Login</button>
+            <small id="usernameHelp" class="form-text text-muted text-center"><a href="/register">I don't have an account</a></small>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

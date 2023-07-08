@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
