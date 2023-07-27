@@ -1,6 +1,7 @@
 # Socket.io Chat Application with MongoDB Integration
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 [Check it out here!](https://simplechat-cogp.onrender.com/)
 
 ## Description
