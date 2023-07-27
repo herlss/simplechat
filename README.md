@@ -1,6 +1,7 @@
 # Socket.io Chat Application with MongoDB Integration
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[Check it out here!](https://simplechat-cogp.onrender.com/)
 
 ## Description
 
@@ -35,7 +36,7 @@ A real-time chat application built with JavaScript, Socket.io, and MongoDB Atlas
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/migueleros/simplechat-websocket.git
+   git clone https://github.com/herlss/simplechat.git
 
 2. Install the dependencies:
 
