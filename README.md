@@ -27,7 +27,7 @@ A real-time chat application built with JavaScript, Socket.io, and MongoDB Atlas
 - Node.js (v12 or above)
 - MongoDB Atlas account (get yours at [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas))
 - You must create a .env file with a CONNECTION_STRING property and paste yours.
-- You will also need a JWT_SECRET property for the auth
+- You will also need a JWT_SECRET property for the auth stuff
 - Get one at MongoDB Atlas or use your local
 
 ### Installation
