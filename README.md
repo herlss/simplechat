@@ -4,6 +4,8 @@
 
 [Check it out here!](https://simplechat-cogp.onrender.com/)
 
+(Render is VERY SLOW, so you might have to wait a lil)
+
 ## Description
 
 A real-time chat application built with JavaScript, Socket.io, and MongoDB Atlas. Users can communicate across three different chat rooms, and all messages are stored in a MongoDB Atlas database for persistence and chat history retrieval.
