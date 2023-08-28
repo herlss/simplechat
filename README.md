@@ -2,6 +2,10 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+[Check it out here!](https://simplechat-cogp.onrender.com/)
+
+(Render is VERY SLOW, so you might have to wait a lil)
+
 ## Description
 
 A real-time chat application built with JavaScript, Socket.io, and MongoDB Atlas. Users can communicate across three different chat rooms, and all messages are stored in a MongoDB Atlas database for persistence and chat history retrieval.
@@ -35,7 +39,7 @@ A real-time chat application built with JavaScript, Socket.io, and MongoDB Atlas
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/migueleros/simplechat-websocket.git
+   git clone https://github.com/herlss/simplechat.git
 
 2. Install the dependencies:
 
