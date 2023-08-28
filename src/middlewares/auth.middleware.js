@@ -6,7 +6,7 @@ export function authenticateUser(socket, next){
 
 		const payload = jwt.verify(token, process.env.JWT_SECRET);
 
-		next();
+		next();	
 		socket.emit('user:data', payload);
 	}
 	catch (err) {

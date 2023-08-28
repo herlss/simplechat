@@ -75,10 +75,13 @@ export function buildDM(dm) {
 export function buildMessage({ msg, username, time }) {
 	chat_display.insertAdjacentHTML( 'beforeend',`
 		<div class='message-wrapper'>
-			<div class='message'>${msg}</div>
+			<div class='message'></div>
 			<small class="text-muted message-user">Sent by ${username} ● ${time}</small>
 		</div>
 	`);
+
+	const messages = document.querySelectorAll('.message');
+	messages[messages.length-1].textContent = msg;
   
 	document.querySelectorAll('.dm-item').forEach((dm) => {
 		if (dm.title == curr_room) {
